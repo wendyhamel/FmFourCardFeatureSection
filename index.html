@@ -17,26 +17,47 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="src/tailwind.config.js"></script>
 </head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+<body class="text-blue-dark antialiased">
+  <main class="my-20 px-8">
+    <section class="text-center space-y-4 mb-20">
+      <h1 class="text-2xl font-extralight leading-normal">
+        Reliable, efficient delivery
+        <span class="font-semibold">Powered by Technology</span>
+      </h1>
+      <p class="text-blue-gray text-small leading-relaxed">Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful</p>
+    </section>
+    <section class="grid gap-6">
+      <article class="rounded-md shadow-around shadow-blue/10 border-t-4 border-t-cyan pt-6 pb-7 px-7 flex flex-col gap-7">
+        <div class="space-y-1">
+          <h2 class="text-xl font-semibold">Supervisor</h2>
+          <p class="text-xs text-blue-gray leading-loose tracking-wide">Monitors activity to identify project roadblocks</p>
+        </div>
+        <img class="w-14 h-14 shrink-0 self-end" src="./images/icon-supervisor.svg" alt="icon magnifying glass with eye">
+      </article>
+      <article class="rounded-md shadow-around shadow-blue/10 border-t-4 border-t-red pt-6 pb-7 px-7 flex flex-col gap-7">
+        <div class="space-y-1">
+          <h2 class="text-xl font-semibold">Team Builder</h2>
+          <p class="text-xs text-blue-gray leading-loose tracking-wide">Scans our talent network to create the optimal team for your project</p>
+        </div>
+        <img class="w-14 h-14 shrink-0 self-end" src="./images/icon-team-builder.svg" alt="icon abstract web page with house">
+      </article>
+      <article class="rounded-md shadow-around shadow-blue/10 border-t-4 border-t-orange pt-6 pb-7 px-7 flex flex-col gap-7">
+        <div class="space-y-1">
+          <h2 class="text-xl font-semibold">Karma</h2>
+          <p class="text-xs text-blue-gray leading-loose tracking-wide">Regularly evaluates our talent to ensure quality</p>
+        </div>
+        <img class="w-14 h-14 shrink-0 self-end" src="./images/icon-karma.svg" alt="icon glowing lightbulb">
+      </article>
+      <article class="rounded-md shadow-around shadow-blue/10 border-t-4 border-t-blue pt-6 pb-7 px-7 flex flex-col gap-7">
+        <div class="space-y-1">
+          <h2 class="text-xl font-semibold">Calculator</h2>
+          <p class="text-xs text-blue-gray leading-loose tracking-wide">Uses data from past projects to provide better delivery estimates</p>
+        </div>
+        <img class="w-14 h-14 shrink-0 self-end" src="./images/icon-calculator.svg" alt="icon desktop screen with abstract graph">
+      </article>
+    </section>
+  </main>
 
   <footer class="fixed bottom-0 inset-x-0 text-center text-xs py-2 opacity-0 translate-y-2 hover:opacity-100 hover:translate-y-0 transform transition ease-in-out duration-150">
     Challenge by <a class="underline hover:text-pink" href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK" target="_blank">Frontend Mentor</a>.
