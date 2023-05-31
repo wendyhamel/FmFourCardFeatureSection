@@ -8,11 +8,14 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind play cdn and local tailwind config file -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="src/tailwind.config.js"></script>
 </head>
 <body>
   
@@ -34,12 +37,10 @@
   Calculator
   Uses data from past projects to provide better delivery estimates
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+
+  <footer class="fixed bottom-0 inset-x-0 text-center text-xs py-2 opacity-0 translate-y-2 hover:opacity-100 hover:translate-y-0 transform transition ease-in-out duration-150">
+    Challenge by <a class="underline hover:text-pink" href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK" target="_blank">Frontend Mentor</a>.
+    Coded by <a class="underline hover:text-pink" href="https://www.frontendmentor.io/profile/wendyhamel" target="_blank">Wendy Hamel</a>.
   </footer>
 </body>
 </html>
